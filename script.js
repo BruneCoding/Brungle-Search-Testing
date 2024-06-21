@@ -12,7 +12,7 @@ function getQueryVariable(variable) {
 
 document.addEventListener("DOMContentLoaded", function(){
   if (getQueryVariable("query") != "no"){
-    search(query)
+    search(encodeURIComponent(query))
   }
 })
 
