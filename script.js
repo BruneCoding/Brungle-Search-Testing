@@ -54,7 +54,7 @@ function search(query) {
               });
 
               // Mock AI summarization for the demonstration
-              aiSummary.textContent = "Here's a brief summary based on your search results...";
+              aiSummary.textContent = "Found more than 3000 Results";
           } else {
               results.innerHTML = '<li>No results found.</li>';
               aiSummary.textContent = '';
