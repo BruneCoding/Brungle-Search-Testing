@@ -47,6 +47,7 @@ button:hover {
   background-color: #4949ff;
 }
 #results {
+  margin-top: 950px;
   list-style: none;
   padding: 0;
   width: 60%;
